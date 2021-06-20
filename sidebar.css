@@ -1,0 +1,79 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.display-toggle {
+  display: none;
+}
+
+.show-hide {
+  display: block;
+}
+
+.side-margin {
+  margin-left: 300px;
+}
+
+.side-bar {
+  padding-left: 0;
+  background: #fff;
+  color: rgba(18, 31, 62, 0.4);
+  width: 260px;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  color: rgba(102, 178, 255, 1);
+}
+
+.isAdmin {
+  background: rgba(102, 178, 255, 1);
+}
+
+nav {
+  margin-top: 80px;
+  border-bottom: 1px rgba(239, 239, 239, 1) solid;
+}
+
+.nav-items li {
+  line-height: 70px;
+  list-style: none;
+}
+
+.nav-items li a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgba(18, 31, 62, 0.4);
+  padding-left: 20px;
+}
+
+.nav-items li a.active {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 117, 255, 0.1) 0%,
+    rgba(41, 130, 235, 0) 117.12%
+  );
+  color: rgba(0, 117, 255, 1);
+}
+
+@media screen and (min-width: 900px) {
+  .side-bar {
+    display: block;
+  }
+
+  main {
+    margin-left: 260px;
+  }
+}

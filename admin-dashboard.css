@@ -1,0 +1,62 @@
+html {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}
+
+::placeholder {
+  color: rgb(141, 141, 141) !important;
+}
+
+.search-box {
+  background: #f5f5f532;
+}
+
+.notif {
+  position: relative;
+}
+
+.notif span {
+  background: rgba(102, 178, 255, 1);
+  position: absolute;
+  bottom: 70%;
+  left: 25%;
+}
+
+.analytic-grid {
+  margin-top: 80px !important;
+}
+
+.registered-users {
+  height: 185px;
+  background-color: rgba(234, 84, 85, 0.12);
+}
+
+.vacc-reminder {
+  height: 185px;
+  background-color: rgba(255, 188, 31, 0.11);
+}
+
+.vacc-completed {
+  height: 185px;
+  background-color: rgba(64, 221, 127, 0.12);
+}
+
+.total-hospital {
+  height: 185px;
+  background-color: rgba(200, 226, 243, 0.65);
+}
+
+@media screen and (min-width: 900px) {
+  .menu-btn {
+    display: none;
+  }
+}
